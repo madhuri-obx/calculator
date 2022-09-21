@@ -2,45 +2,46 @@
 <html>
     <head>
         <link rel="stylesheet" href="calculator.css">
+        <script src="calculator.js"></script>
     </head>
         <body>
            
             <table style="width:40%;">
               
             <tr>
-                <th colspan="4" style="height:90px" "width:30px"><input type="button" value="display"</th>
+                <th colspan="4" style="height:90px" "width:30px"><input type="button" value="display" onclick="display()"</th>
 
 
             </tr>
 <tr>
-    <td><input type="button" value="clear" onclick="clear"></td>
-    <td><input type="button" value="+/-" onclick="+/-"></td>
-    <td><input type="button" value="%" onclick="%"></td>
-    <td><input type="button" value="/" onclick="/"></td>
+    <td><input type="button" value="c" onclick="c()"></td>
+    <td><input type="button" value="+/-" onclick="plusmin()"></td>
+    <td><input type="button" value="%" onclick="per()"></td>
+    <td><input type="button" value="/" onclick="backslash()"></td>
 </tr>
 <tr>
-    <td><input type="button" value="7" onclick="7"></td>
-    <td><input type="button" value="8" onclick="8"></td>
-    <td><input type="button" value="9" onclick="9"></td>
-    <td><input type="button" value="*" onclick="*"></td>
+    <td><input type="button" value="7" onclick="seven()"></td>
+    <td><input type="button" value="8" onclick="eight()"></td>
+    <td><input type="button" value="9" onclick="nine()"></td>
+    <td><input type="button" value="*" onclick="multi()"></td>
 </tr>
 <tr>
-    <td><input type="button" value="4" onclick="4"></td>
-    <td><input type="button" value="5" onclick="5"></td>
-    <td><input type="button" value="6" onclick="6"></td>
-    <td><input type="button" value="-" onclick="-"></td>
+    <td><input type="button" value="4" onclick="four()"></td>
+    <td><input type="button" value="5" onclick="five()"></td>
+    <td><input type="button" value="6" onclick="six()"></td>
+    <td><input type="button" value="-" onclick="minus()"></td>
 </tr>
 <tr>
-    <td><input type="button" value="1" onclick="1"></td>
-    <td><input type="button" value="2" onclick="2"></td>
-    <td><input type="button" value="3" onclick="3"></td>
-    <td><input type="button" value="+" onclick="+"></td>
+    <td><input type="button" value="1" onclick="one()"></td>
+    <td><input type="button" value="2" onclick="two()"></td>
+    <td><input type="button" value="3" onclick="three()"></td>
+    <td><input type="button" value="+" onclick="plus()"></td>
 </tr>
 <tr>
-    <td colspan="2"><input type="button" value="0" onclick="0"></td>
+    <td colspan="2"><input type="button" value="0" onclick="zero()"></td>
     
-    <td><input type="button" value="." onclick="."></td>
-    <td><input type="button" value="=" onclick="="></td>
+    <td><input type="button" value="." onclick="dot()"></td>
+    <td><input type="button" value="=" onclick="equal()"></td>
 </tr>
             </table>
         </body>
